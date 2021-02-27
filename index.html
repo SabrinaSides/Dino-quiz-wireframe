@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <body>
+    <main>
+  <!--Start Page-->
+        <h1>Dinosaur Quiz</h1>
+            <p>How much do you know about dinosaurs? Try this quiz to test your knowledge.</p>
+        <!--Start button-->
+            <form>
+                <br>
+                <button type="submit">Start Quiz</button>
+              </form>
+
+  <!--Question Page-->
+    <div class="container">
+    <form id="form">
+        <h2>1. How long did dinosaurs live on Earth?</h2>
+            <input name="answerA" type="radio" value="answerA">
+             <label for="red">245 million years</label><br>
+            <input name="answerB" type="radio" value="answerB">
+             <label for="blue">3 million years</label><br>
+            <input name="answerC" type="radio" value="answerC">
+             <label for="white">20 million years</label><br>
+            <input name="answerD" type="radio" value="answerD">
+             <label for="white">900,000 years</label><br>
+        <!--Submit button-->
+            <form>
+                <br>
+                <button type="submit">Submit</button>
+              </form>
+        <!--Question Tracker-->
+        <p>Question: 1 of 5</p>
+        <!--Score Tracker-->
+        <p>Score: 0 of 5</p>
+      </form>
+      </div>
+  
+  <!--Feedback Page- Right Answer-->
+      <h2>That's right!</h2>
+      <p>Keep it up!</p>
+      <!--Next Question Button-->
+      <button id="nextQuestionButton">Next Question</button>
+
+  <!--Feedback Page- Wrong Answer-->
+      <h2>Sorry, that's incorrect...</h2>
+      <p>The correct answer was 245 million years ago.</p>
+      <!--Next Question Button-->
+      <button id="nextQuestionButton">Next Question</button>
+
+  <!--Score Page-->
+      <h2>Congratulations! You finished the quiz!</h2>
+      <p>You scored 10/10</p>
+      <!--Restart quiz button-->
+      <button id="restartQuizButton">Restart Quiz</button>
+    </main>
+  </body>
+</html>

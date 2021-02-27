@@ -1,0 +1,23 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 700px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  outline-style: solid;
+}
